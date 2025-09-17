@@ -11,6 +11,7 @@ export default defineConfig({
       filename: 'dist/stats.html', // Файл, в который сохранится отчет
     }),
   ],
+  base: '/konstruct/',
   build: {
     outDir: 'dist', // Папка для сборки (по умолчанию и так 'dist')
   }

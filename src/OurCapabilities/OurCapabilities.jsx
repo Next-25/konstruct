@@ -21,11 +21,11 @@ function OurCapabilities() {
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
                     </MegaCard>
 
-                    <MegaCard src="../card-5.png" title="STRUCTURE AUDIT AND MAINTENANCE">
+                    <MegaCard src="./card-5.png" title="STRUCTURE AUDIT AND MAINTENANCE">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
                     </MegaCard>
 
-                    <MegaCard src="../card-5.png" title="FACTORY CONSTRUCTION AND MODELING">
+                    <MegaCard src="./card-5.png" title="FACTORY CONSTRUCTION AND MODELING">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
                     </MegaCard>
                 </div>
