@@ -1,0 +1,40 @@
+.section {
+    background-image: url('./call-to-action.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 499px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #171819;
+
+}
+
+.signup-title{
+    color: white;
+    margin-right: 70px;
+}
+
+.input{
+    background-color: white;
+    height: 40px;
+    width: 250px;
+}

@@ -1,0 +1,15 @@
+.card {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 0 0 15px;
+    width: 140px;
+    height: 224px;
+
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+     transform: translateY(-2px);
+}

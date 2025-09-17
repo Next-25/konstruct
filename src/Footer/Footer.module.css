@@ -1,0 +1,112 @@
+.container{
+    background-color: #141A20;
+    color: white;
+}
+
+.section{
+    width: 940px;
+    height: 240px;
+    margin-inline: auto;
+    display: flex;
+    align-items:flex-start;
+    padding-top: 42px;
+
+}
+
+.company{
+    width: 250px;
+    margin-right: 71px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+}
+
+.logo{
+    margin: 19px auto 15px 0;
+}
+
+.description{
+    font-size: 11px;
+    font-weight: 40
+}
+
+.links{
+    margin-right: 58px;
+}
+
+.links .title {
+    margin-bottom: 10px;
+}
+
+.links nav{
+    display: flex;
+    gap: 35px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li{
+    transition: all 0.3s ease;
+}
+
+.links ul li:hover{
+    transform: translateX(2px);
+}
+
+.links ul li:active{
+    transform: translateX(0);
+}
+
+.links ul li a {
+    all:unset;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.links ul li a:hover{
+    cursor: pointer;
+    color: #00A4E5;
+}
+
+.contact{
+    width: 141px;
+    height: 158px;
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 46px;
+}
+
+.social{
+    display: flex;
+    gap: 38px;
+}
+
+.social a{
+    all: unset;
+    color: white;
+    width: 12px;
+    height: 12px;
+
+    transition: all 0.3s ease;
+}
+
+.social a:hover{
+    cursor: pointer;
+    color: #00A4E5;
+
+    transform: translateY(2px);
+}
+
+.social a:active{
+    transform: translateY(0);
+}
