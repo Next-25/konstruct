@@ -1,6 +1,6 @@
 import styles from './MegaCard.module.css';
 
-function MegaCard(props) {
+export default function MegaCard(props) {
     return (
         <div className={styles["mega-card"]}>
             <img className={styles.image} src={props.src} />
@@ -9,5 +9,3 @@ function MegaCard(props) {
         </div>
     );
 }
-
-export default MegaCard

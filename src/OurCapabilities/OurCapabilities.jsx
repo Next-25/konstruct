@@ -2,7 +2,7 @@ import styles from './OurCapabilities.module.css';
 import Button from '../Button/Button.jsx'
 import MegaCard from '../MegaCard/MegaCard.jsx'
 
-function OurCapabilities() {
+export default function OurCapabilities() {
 
     return (
         <>
@@ -34,5 +34,3 @@ function OurCapabilities() {
     );
 
 }
-
-export default OurCapabilities

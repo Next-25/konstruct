@@ -1,7 +1,7 @@
 import logo from '../assets/logo.svg'
 import styles from './Hero.module.css'
 
-function Hero() {
+export default function Hero() {
 
     return (
         <section id='Home' className={styles.section}>
@@ -14,5 +14,3 @@ function Hero() {
         </section>
     );
 }
-
-export default Hero

@@ -1,7 +1,7 @@
 import styles from './OurStory.module.css';
 import SimpleCard from '../SimpleCard/SimpleCard.jsx';
 
-function OurStory() {
+export default function OurStory() {
 
     return (
         <section id='About' className={styles.section}>
@@ -30,5 +30,3 @@ function OurStory() {
     );
 
 }
-
-export default OurStory

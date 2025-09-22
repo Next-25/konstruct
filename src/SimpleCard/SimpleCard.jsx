@@ -1,6 +1,6 @@
 import styles from './SimpleCard.module.css';
 
-function SimpleCard(props) {
+export default function SimpleCard(props) {
 
     return (
         <div className={`${styles.card} ${props.className}`}>
@@ -8,5 +8,3 @@ function SimpleCard(props) {
         </div>
     );
 }
-
-export default SimpleCard

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from './ScrollToTopButton.module.css';
 
-function ScrollToTopButton() {
+export default function ScrollToTopButton() {
 
     const [isVisible, setIsVisible] = useState(false);
 
@@ -39,6 +39,4 @@ function ScrollToTopButton() {
             )}
         </>
     );
-};
-
-export default ScrollToTopButton;
+}

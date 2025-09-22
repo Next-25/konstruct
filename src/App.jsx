@@ -8,7 +8,7 @@ import Footer from './Footer/Footer'
 import CopyRight from './CopyRight/CopyRight'
 import ScrollToTopButton from './ScrollToTopButton/ScrollToTopButton'
 
-function App() {
+export default function App() {
 
 
   return (
@@ -25,5 +25,3 @@ function App() {
     </>
   )
 }
-
-export default App
